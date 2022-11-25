@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    font-weight: bolder;
+   
+  
+  }
+
+  @keyframes animation {
+    0% {
+      top: -90vh;
+    }
+    100% {
+      top: 0vh;
+    }
+  }

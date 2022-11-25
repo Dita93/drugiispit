@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+@keyframes animation {
+  0% {
+    top: -90vh;
+  }
+  100% {
+    top: 0vh;
+  }
+}
+.loki {
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+  background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_556%2Cw_988&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
+  background-size: cover;
+  display: flex;
+  gap: 5vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tara {
+  width: 80vh;
+  height: 30vw;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  top: -95vh;
+  justify-content: center;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  font-size: 15vw;
+  border-radius: 15%;
+  border: 2px solid rgb(249, 250, 248);
+}
+
+.f1 {
+  background-color: rgba(132, 130, 130, 0.5);
+  animation-delay: 2s;
+}
+
+.f2 {
+  background-color: rgba(255, 0, 0, 0.5);
+  animation-delay: 4s;
+}
+
+.f3 {
+  background-color: rgba(247, 252, 0, 0.5);
+  animation-delay: 6s;
+}
+
+/*# sourceMappingURL=style.css.map */
