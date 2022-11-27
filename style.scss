@@ -6,31 +6,31 @@
       .loki {
         width: 100vw;
         height: 100vh;
-        padding: 2em;
+        padding: 3vw;
         background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_556%2Cw_988&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
         background-size: cover;
         display: flex;
-        gap: 5vw;
+        gap: 3vw;
         justify-content: space-around;
         align-items: center;
+        flex-direction: column;
+        overflow: hidden;
         
       }
       .tara {
       
-        width: 80vh;
-        height: 30vw;
+        width: 15%;
         display: flex;
-       
-        align-items: center;
+        align-items: center; 
         color: #fff;
-        position: relative;
-        top: -95vh;
+        position: relative; 
+        right: -150vh;
         justify-content: center;
         animation-name: animation;
         animation-duration: 2s;
         animation-fill-mode: forwards;
         animation-timing-function: ease-in;
-        font-size: 15vw;
+        font-size: 10vw;
         border-radius: 15%;
         border: 2px solid rgb(249, 250, 248);
       }
@@ -43,6 +43,6 @@
         animation-delay: 4s;
       }
       .f3 {
-        background-color:rgb(247, 252, 0, 0.5);
+        background-color:rgb(248, 252, 0, 0.5);
         animation-delay: 6s;
       }
